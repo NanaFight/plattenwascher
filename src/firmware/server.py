@@ -6,7 +6,6 @@ from microWebSrv import MicroWebSrv
 
 # start the Webserver
 def start():
-  print(uos.getcwd())
   print('Starting restful Webserver.')
   srv = MicroWebSrv(webPath='/gui')
   srv.Start(threaded=False)
