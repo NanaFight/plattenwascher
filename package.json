@@ -11,7 +11,7 @@
     "url": "https://github.com/NanaFight/plattenwascher-gui.git"
   },
   "scripts": {
-    "build-gui": "node build.js"
+    "build": "node build.js"
   },
   "dependencies": {
     "materialize-css": "^1.0.0"

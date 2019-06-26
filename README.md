@@ -6,6 +6,14 @@
 * nodejs >= 12.x.x
 * pipenv 
 
+create a file called 'src/firmware/wlan.json' of the following form 
+```json
+{
+    "ssid": "your_ssid",
+    "password": "your_password"
+}
+```
+there is also an example file called 'src/firmware/wlan.json.example'
 
 ```shell
 $ pipenv install
@@ -19,16 +27,7 @@ $ pipenv shell
 $ npm install
 ```
 
-* create directory 'vendor'
-
-```shell
-cd vendor
-```
-
-```shell
-git clone https://github.com/jczic/MicroWebSrv.git
-```
-
 ```shell
 $ npm run build
 ```
+

@@ -169,12 +169,13 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-
-
-
+## OWN
 
 # vendor dirctory for 3rd party files
 vendor
 
 # build directory
 build
+
+# wlan login credentials
+src/firmware/wlan.json
