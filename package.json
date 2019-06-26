@@ -1,0 +1,19 @@
+{
+  "name": "plattenwascher_gui",
+  "version": "1.0.0",
+  "author": {
+    "name": "NanaFight"
+  },
+  "main": "src/gui/main.js",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NanaFight/plattenwascher-gui.git"
+  },
+  "scripts": {
+    "build-gui": "node build.js"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
+}

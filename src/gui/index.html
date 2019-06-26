@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Plattenwascher Control</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper deep-purple darken-4">
+            <a href="#" class="brand-logo center">Plattenwascher</a>
+            <ul class="left">
+                <li><a class="waves-effect waves-light btn cyan darken-2" id="button-connection"><i class="material-icons">signal_wifi_off</i></a></li>
+              </ul>
+            <ul class="right">
+                <li><a class="waves-effect waves-light btn cyan darken-2" id="button-power"><i class="material-icons">power_settings_new</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <div class="row no-margin-bottom">
+                <div class="col s6 m6">
+                    <div class="icon-block">
+                        <h2 class="center"><a class="waves-effect waves-light btn-large cyan darken-2 tooltipped" data-position="top" data-tooltip="start rotation" id="button-run"><i class="material-icons">play_arrow</i></a></h2>
+                    </div>
+                </div>
+                <div class="col s6 m6">
+                    <div class="icon-block">
+                        <h2 class="center"><a class="waves-effect waves-light btn-large cyan darken-2 tooltipped" data-position="top" data-tooltip="stop rotation" id="button-stop"><i class="material-icons large">stop</i></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-margin-bottom">
+                <div class="col s6 m6">
+                    <div class="icon-block">
+                        <h2 class="center"><a class="waves-effect waves-light btn-large cyan darken-2 tooltipped" data-position="top" data-tooltip="decelerate" id="button-decelerate"><i class="material-icons large">fast_rewind</i></a></h2>
+                    </div>
+                </div>
+                <div class="col s6 m6">
+                    <div class="icon-block">
+                        <h2 class="center"><a class="waves-effect waves-light btn-large cyan darken-2 tooltipped" data-position="top" data-tooltip="accelerate" id="button-accelerate"><i class="material-icons">fast_forward</i></a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
